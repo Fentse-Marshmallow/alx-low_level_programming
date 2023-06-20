@@ -5,8 +5,7 @@
 /**
  * main - Entry point
  * Description: Print the last digit
- * Return: 0 (Success)
- *
+ * Return: 0 (Success)*
  */
 
 int main(void)
@@ -25,7 +24,7 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is 0\n", n, ld);
 	}
-	else
+	else if (ld < 6 && ld != 0)
 	{
 		printf("Last digit of %d is %d and less than 6 and not 0\n", n, ld);
 	}
