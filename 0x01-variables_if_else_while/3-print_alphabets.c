@@ -1,26 +1,25 @@
 #include <stdio.h>
-#include <ctype.h>
-
 /**
  * main - Entry point
- *
  * Description: Print letters in lower and upper case
- *
- * Return 0 (Success)
+ * Return: 0 (Success)
  */
-
 int main(void)
 {
-	int l;
+	int x = 97;
+	int y = 65;
 
-	l = 'a';
-	while
-		(l <= 'z')
-		{
-			putchar(l);
-			l++;
-		}
+	while (x <= 122)
+	{
 
+		putchar(x);
+		x++;
+	}
+	while (y <= 90)
+	{
+		putchar(y);
+		y++;
+	}
 	putchar('\n');
 	return (0);
 }
